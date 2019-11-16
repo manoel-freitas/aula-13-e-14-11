@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <title></title>
+</head>
+<body>
+    <header id="header-nav" class="header-transparent">
+        <h2 class="header-tittle">Menu de navegação</h2>
+    </header>
+    <section class="banner">
+        <button id="header-btn" class="header-btn" 
+        onmouseover="changeBtnOnmouseover()"
+        onmouseout="changeBtnOnmouseout()"
+        onclick="showModal(event)">
+            Abrir modal
+        </button>
+    </section>
+    <section class="extra"></section>
+
+    </section>
+    <div id="modal" class="modal animated">
+        <div class="modal-content">
+            <h2>Clique fora da janela para fechar</h2>
+        </div>
+    </div>
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/header.js"></script>
+    <script src="../scripts/btn.js"></script>
+    <script src="../scripts/modal.js"></script>
+</body>
+</html>
