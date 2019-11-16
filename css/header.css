@@ -1,0 +1,16 @@
+.header-transparent {
+    background-color: #FFF0;
+    position: fixed;
+    color: #FDD;
+    width: 100%;
+    ;
+}
+
+.header-tittle {
+    margin-left: 3vw;
+    padding: 0.5vw;
+}
+
+.onscroll-header {
+    background-color: #002c55;
+}
