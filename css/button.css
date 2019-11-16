@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+.header-btn {
+    margin: 15vw 41vw;
+    padding: 1vw;
+    width: 18vw;
+    height: 8vw;
+    background-color: #FFF0;
+    border: solid 0.15vw #FEED;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vw;
+    color: #FDD;
+}
+
+.header-btn-onmouseover {
+    background-color: #FFFC;
+    color: #1d1b1b;
+    border: solid 0.15vw #1d1b1b;
+}
+
+
+
+
+
+
