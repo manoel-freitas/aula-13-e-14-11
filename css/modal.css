@@ -1,0 +1,36 @@
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100vh; 
+    overflow: auto; 
+    background-color: #111C; 
+    transition: opacity 500ms ease-in;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+}
+
+.modal-content {
+    background-color: #FFFFFFAA;
+    margin: 5vw auto 5vw; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    height: 70%;
+    border-radius: 3vw;
+}
+
+.modal h2 {
+    margin: 15vw 15vw;
+    color: #111C;
+}
+
+.modal-showing {
+    display: block;
+    transition: opacity 500ms ease-in;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+}
